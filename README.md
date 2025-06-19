@@ -9,8 +9,6 @@ This repository contains a machine learning project for predicting diseases base
 - [Dataset](#dataset)
 - [File Structure](#file-structure)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
