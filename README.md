@@ -2,15 +2,6 @@
 
 This repository contains a machine learning project for predicting diseases based on symptom inputs. The project implements a comprehensive pipeline that includes data preprocessing, class balancing, training of multiple machine learning models (SVM, Naive Bayes, Random Forest), ensemble prediction using majority voting, and visualization of results through confusion matrices. The code is designed to work with the `improved_disease_dataset.csv` dataset and includes a function to predict diseases from user-provided symptoms.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [File Structure](#file-structure)
-- [Results](#results)
-- [Contact](#contact)
-
 ## Features
 - Loads and preprocesses the disease dataset with label encoding and missing value handling.
 - Balances class distribution using RandomOverSampler to address imbalanced data.
