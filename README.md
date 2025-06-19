@@ -27,56 +27,20 @@ This repository contains a machine learning project for predicting diseases base
 - Python 3.11 or higher
 - pip (Python package manager)
 
-### Dependencies
-Install the required Python packages using the following command:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
-Setup
-Clone the repository:
-bash
+### Notes for Customization
+1. **Repository URL**: The URL `https://github.com/SairamNagarajan1/DiseasePrediction` is used as requested. Ensure this matches your actual repository.
+2. **File Name**: The script is named `disease_prediction.py` for consistency. If your file has a different name (e.g., based on the repository), update the usage section accordingly.
+3. **Dataset Path**: The README assumes the dataset is in `/content/`. Adjust if your setup differs (e.g., local directory).
+4. **Author Details**: Replace the placeholder email with your actual contact information.
+5. **Images**: The `images/` directory is optional. If you upload the confusion matrix images (e.g., from your previous input), link them here.
+6. **License**: Add a `LICENSE` file to the repository if not already present.
 
-Collapse
-
-Wrap
-
-Run
-
-Copy
-git clone https://github.com/SairamNagarajan1/DiseasePrediction.git
-cd DiseasePrediction
-Ensure the dataset improved_disease_dataset.csv is placed in the /content/ directory (e.g., in Google Colab) or adjust the file path in the script to match your local setup (e.g., pd.read_csv('path/to/your/dataset.csv')).
-Run the script with the installed dependencies.
-
-Usage
-Run the Script: Execute the main Python script to process the dataset, train models, and generate visualizations:
-bash
-
-Collapse
-
-Wrap
-
-Run
-
-Copy
-python disease_prediction.py
-This will display class distribution plots, confusion matrices, cross-validation scores, and model accuracies.
-Predict Diseases: Use the predict_disease function to diagnose based on symptoms. Example:
-python
-
-Collapse
-
-Wrap
-
-Run
-
-Copy
-from disease_prediction import predict_disease
-symptoms = "Itching,Skin Rash,Nodal Skin Eruptions"
-result = predict_disease(symptoms)
-print(result)
-This returns a dictionary with predictions from each model (SVM, Naive Bayes, Random Forest) and the final ensemble diagnosis.
-Visualizations: The script automatically generates plots for class distribution and confusion matrices, which are displayed or saved depending on your environment (e.g., Jupyter Notebook, Colab, or local IDE).
-Dataset
-Source: The project uses improved_disease_dataset.csv, which should contain a disease column (target) and symptom-related features (e.g., "Itching", "Skin Rash").
-Format: CSV file with 38 classes (labeled 0-37), balanced to 90 samples per class after oversampling.
-Location: Place the file in /content/ or update the path in the script if using a different location.
+### How to Use
+1. **Create the Repository**: If not already done, create a GitHub repository at `https://github.com/SairamNagarajan1/DiseasePrediction`.
+2. **Add Files**: Upload the `disease_prediction.py` script, dataset, and optionally the `requirements.txt` and image files.
+3. **Paste README**: Copy the above content into a `README.md` file in the repository root.
+4. **Commit and Push**: Use Git to commit and push the changes:
+   ```bash
+   git add .
+   git commit -m "Add README and project files"
+   git push origin main
